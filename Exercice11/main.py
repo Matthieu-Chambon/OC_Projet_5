@@ -22,11 +22,11 @@ class BankAccount:
 
 bank_account = BankAccount("Charles", 50)
 
-print(f"\nJe dépose 10€")
+print(f"\nCharles dépose 10€")
 bank_account.deposit(10)
 
-print(f"\nJe retire 100€")
+print(f"\nCharles retire 100€")
 bank_account.withdraw(100)
 
-print(f"\nJe retire 30€")
+print(f"\nCharles retire 30€")
 bank_account.withdraw(30)

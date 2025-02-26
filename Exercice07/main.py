@@ -1,4 +1,3 @@
-## Écrivez votre code ici !
 def square(number):
     try:
         number_square = float(number) * float(number)

@@ -53,21 +53,16 @@ class Library:
         for book in self.borrow_books:
             print(f"{book.title} - {book.author} ({book.year})")
 
-
 library = Library()
+
 library.add_book("1984", "George Orwell", 1949)
 library.add_book("Le Petit Prince", "Antoine de Saint-Exupéry", 1943)
 library.add_book("Les Misérables", "Victor Hugo", 1862)
 library.add_book("L'Étranger", "Albert Camus", 1942)
-
 library.borrow_book("Le Petit Prince")
 library.borrow_book("Les Misérables")
-
 library.return_book("Le Petit Prince")
-
 library.remove_book("L'Étranger")
-
 library.available_books()
-
 library.borrowed_books()
 
